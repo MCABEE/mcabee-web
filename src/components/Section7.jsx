@@ -1,5 +1,8 @@
 import React from "react";
-import fonts from "@/utils/index";
+import localFont from 'next/font/local'
+
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
 
 function Section7() {
   return (
@@ -11,7 +14,7 @@ function Section7() {
       />
       <div className="flex flex-col justify-center items-center">
         <p
-          className={`${fonts.aeonik_regular.className} text-2xl md:text-[20px] lg:text-[26px] xl:text-[32px] text-[#333333] text-center pt-9 md:pt-0`}
+          className={`${aeonik_regular.className} text-2xl md:text-[20px] lg:text-[26px] xl:text-[32px] text-[#333333] text-center pt-9 md:pt-0`}
         >
           Let’s Build Something <br /> Great Together
         </p>
@@ -22,7 +25,7 @@ function Section7() {
         />
 
         <p
-          className={`${fonts.aeonik_regular.className} text-center text-sm lg:text-base text-[#333333] px-10 sm:px-20 xl:px-28 leading-[120%] pb-10 lg:pb-16 pt-2`}
+          className={`${aeonik_regular.className} text-center text-sm lg:text-base text-[#333333] px-10 sm:px-20 xl:px-28 leading-[120%] pb-10 lg:pb-16 pt-2`}
         >
           Whether it’s launching a new product or scaling an existing one, we’re
           here to turn ideas into reality.
@@ -35,7 +38,7 @@ function Section7() {
             className="block md:hidden w-[40px] h-[88px] flex-1"
           />
           <p
-            className={`${fonts.aeonik_regular.className} w-[144px] lg:w-[162px] h-[40px] lg:h-[56px] rounded-[10px] text-sm lg:text-base text-[#000000] flex justify-center items-center border border-[#999999]`}
+            className={`${aeonik_regular.className} w-[144px] lg:w-[162px] h-[40px] lg:h-[56px] rounded-[10px] text-sm lg:text-base text-[#000000] flex justify-center items-center border border-[#999999]`}
           >
             Partner with us
           </p>

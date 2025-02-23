@@ -1,16 +1,21 @@
 import React from "react";
-import fonts from "@/utils/index";
+import localFont from 'next/font/local'
+
+
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
+
 
 const Section6 = () => {
   return (
     <div>
       <p
-        className={`${fonts.aeonik_regular.className} text-[#666666] text-xs md:text-[16px]`}
+        className={`${aeonik_regular.className} text-[#666666] text-xs md:text-[16px]`}
       >
         Stories
       </p>
       <h1
-        className={`${fonts.aeonik_regular.className} text-[#333333] text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[120%]`}
+        className={`${aeonik_regular.className} text-[#333333] text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[120%]`}
       >
         What do our <br />
         customers say?
@@ -21,12 +26,12 @@ const Section6 = () => {
         className="-mt-10 lg:-mt-12 translate-x-[112px] sm:translate-x-[145px] md:translate-x-[170px] lg:translate-x-[230px] w-[70px] sm:w-[90px] lg:w-auto h-[49px] lg:h-auto"
       />
       <p
-        className={`${fonts.aeonik_light.className} text-[#333333] text-sm sm:text-lg md:text-xl lg:text-2xl pb-2`}
+        className={`${aeonik_light.className} text-[#333333] text-sm sm:text-lg md:text-xl lg:text-2xl pb-2`}
       >
         Success Backed by Experience
       </p>
       <p
-        className={`${fonts.aeonik_regular.className} text-sm md:text-base text-[#333333]`}
+        className={`${aeonik_regular.className} text-sm md:text-base text-[#333333]`}
       >
         Trusted by startups and enterprises, we bring expertise that delivers
         real impact
@@ -48,7 +53,7 @@ const Section6 = () => {
             className="pb-[22px] size-9 lg:size-auto"
           />
           <p
-            className={`${fonts.aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
+            className={`${aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
           >
             Mcabee helped create a community across our restaurants. It's great
             to collaborate with Mcabee; it's dynamic, and we brainstorm about
@@ -59,12 +64,12 @@ const Section6 = () => {
           <div className="flex justify-between ">
             <div className="flex flex-col">
               <p
-                className={`${fonts.aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
+                className={`${aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
               >
                 Mariano Johns
               </p>
               <p
-                className={`${fonts.aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
+                className={`${aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
               >
                 Lutens Cafe, Sydney, Australia
               </p>
@@ -82,7 +87,7 @@ const Section6 = () => {
             className="pb-[22px] size-9 lg:size-auto"
           />
           <p
-            className={`${fonts.aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
+            className={`${aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
           >
             Mcabee helped create a community across our restaurants. It's great
             to collaborate with Mcabee; it's dynamic, and we brainstorm about
@@ -93,12 +98,12 @@ const Section6 = () => {
           <div className="flex justify-between ">
             <div className="flex flex-col">
               <p
-                className={`${fonts.aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
+                className={`${aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
               >
                 Mariano Johns
               </p>
               <p
-                className={`${fonts.aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
+                className={`${aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
               >
                 Lutens Cafe, Sydney, Australia
               </p>
@@ -113,7 +118,7 @@ const Section6 = () => {
             className="pb-[22px] size-9 lg:size-auto"
           />
           <p
-            className={`${fonts.aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
+            className={`${aeonik_light.className} text-sm lg:text-base text-[#333333] pe-2 lg:pe-5 xl:pe-16`}
           >
             Mcabee helped create a community across our restaurants. It's great
             to collaborate with Mcabee; it's dynamic, and we brainstorm about
@@ -124,12 +129,12 @@ const Section6 = () => {
           <div className="flex justify-between ">
             <div className="flex flex-col">
               <p
-                className={`${fonts.aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
+                className={`${aeonik_regular.className} pt-8 xl:pt-12 text-[#666666] text-sm lg:text-base`}
               >
                 Mariano Johns
               </p>
               <p
-                className={`${fonts.aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
+                className={`${aeonik_regular.className} text-[#666666] text-sm lg:text-base pb-3`}
               >
                 Lutens Cafe, Sydney, Australia
               </p>

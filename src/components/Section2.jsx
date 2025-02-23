@@ -1,19 +1,22 @@
 import React from "react";
-import fonts from "@/utils/index"
+import localFont from 'next/font/local'
+
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
 
 const Section2 = () => {
   return (
     <>
       <div className="text-left">
         <p
-          className={`${fonts.aeonik_regular.className} text-sm sm:text-base text-[#666666] pb-[11px]`}
+          className={`${aeonik_regular.className} text-sm sm:text-base text-[#666666] pb-[11px]`}
         >
           Built in-house
         </p>
 
         <div className="relative inline-block lg:block">
           <p
-            className={`${fonts.aeonik_regular.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#333333] pb-2`}
+            className={`${aeonik_regular.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#333333] pb-2`}
           >
             Product Highlights
           </p>
@@ -25,12 +28,12 @@ const Section2 = () => {
         </div>
         <div className="flex justify-between">
           <p
-            className={`${fonts.aeonik_light.className} text-sm sm:text-lg md:text-xl lg:text-2xl text-[#333333]`}
+            className={`${aeonik_light.className} text-sm sm:text-lg md:text-xl lg:text-2xl text-[#333333]`}
           >
             Innovating for a Connected World
           </p>
           <p
-            className={`${fonts.aeonik_regular.className} text-xs sm:text-base text-[#666666] `}
+            className={`${aeonik_regular.className} text-xs sm:text-base text-[#666666] `}
           >
             See all features
           </p>
@@ -48,13 +51,13 @@ const Section2 = () => {
             />
           </div>{" "}
           <p
-            className={`${fonts.aeonik_regular.className} text-2xl sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] leading-[120%]`}
+            className={`${aeonik_regular.className} text-2xl sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] leading-[120%]`}
           >
             ‘Couplr’ <br />
             Where connections begin...
           </p>
           <p
-            className={`${fonts.aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810] pt-5 sm:pe-[50px] xl:pe-[100px] 2xl:pe-[180px] pb-8 lg:pb-20 xl:pb-24 leading-[140%]`}
+            className={`${aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810] pt-5 sm:pe-[50px] xl:pe-[100px] 2xl:pe-[180px] pb-8 lg:pb-20 xl:pb-24 leading-[140%]`}
           >
             Couplr is a relationship-focused social platform for singles looking
             for marriage, dating, relationships, or friendships. It blends
@@ -85,13 +88,13 @@ const Section2 = () => {
             />
           </div>
           <p
-            className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333]  leading-[120%] pb-4 lg:pb-6 pe-[50px] md:pe-0 `}
+            className={`${aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333]  leading-[120%] pb-4 lg:pb-6 pe-[50px] md:pe-0 `}
           >
             Seamless messaging,
             <br /> built for scale.
           </p>
           <p
-            className={`${fonts.aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810]   leading-[140%] pb-8 md:pb-0 sm:pe-[50px] md:pe-0`}
+            className={`${aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810]   leading-[140%] pb-8 md:pb-0 sm:pe-[50px] md:pe-0`}
           >
             Our messenger offers real-time, secure, and scalable communication
             with media sharing, privacy controls, and a smooth UX, showcasing
@@ -117,12 +120,12 @@ const Section2 = () => {
             />
           </div>
           <p
-            className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-3 sm:pt-12 pe-[66px] leading-[120%] pb-6 `}
+            className={`${aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-3 sm:pt-12 pe-[66px] leading-[120%] pb-6 `}
           >
             Engage with rich media{" "}
           </p>
           <p
-            className={`${fonts.aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810]  sm:pe-[50px] md:pe-6 leading-[140%] pb-8 md:pb-0`}
+            className={`${aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810]  sm:pe-[50px] md:pe-6 leading-[140%] pb-8 md:pb-0`}
           >
             The app lets you share images and video reels with advanced
             streaming integration and a user-friendly interface, offering an
@@ -136,13 +139,13 @@ const Section2 = () => {
             className="pt-[180px] sm:pt-[140px]"
           />
           <p
-            className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-6`}
+            className={`${aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-6`}
           >
             Smart Feeds,
             <br /> Powered by AI & Data
           </p>
           <p
-            className={`${fonts.aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810] pt-5 sm:pe-[50px] xl:pe-[100px] leading-[140%] pb-8 md:pb-10 lg:pb-20`}
+            className={`${aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810] pt-5 sm:pe-[50px] xl:pe-[100px] leading-[140%] pb-8 md:pb-10 lg:pb-20`}
           >
             Our AI-driven feed algorithm delivers personalized content by
             analyzing large-scale user data. Leveraging advanced data analysis

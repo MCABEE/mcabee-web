@@ -74,13 +74,16 @@
 
 import React from "react";
 import Image from "next/image";
-import fonts from "@/utils/index";
 import Link from "next/link";
+import localFont from 'next/font/local'
+
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
 
 const Footer = () => {
   return (
     <div
-      className={`${fonts.aeonik_regular.className}mt-8 mb-10 px-10 md:px-20 xl:px-40 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5`}
+      className={`${aeonik_regular.className} mt-8 mb-10 px-10 md:px-20 xl:px-40 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5`}
     >
       <div>
         <Image

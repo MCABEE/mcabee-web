@@ -38,7 +38,10 @@
 // export default Section3
 
 import React from "react";
-import fonts from "@/utils/index"
+import localFont from 'next/font/local'
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
+
 
 const capabilities = [
   { label: "Business Websites", bg: "bg-[#F0F1F1]" },
@@ -55,12 +58,12 @@ const Section3 = () => {
   return (
     <div className="pb-10">
       <h1
-        className={`${fonts.aeonik_regular.className} text-sm lg:text-base text-[#666666] pt-4`}
+        className={`${aeonik_regular.className} text-sm lg:text-base text-[#666666] pt-4`}
       >
         Our Capabilities
       </h1>
       <h1
-        className={`${fonts.aeonik_regular.className} text-[24px] lg:text-[38px] xl:text-[48px] text-[#333333]`}
+        className={`${aeonik_regular.className} text-[24px] lg:text-[38px] xl:text-[48px] text-[#333333]`}
       >
         Tech expertise that powers
       </h1>
@@ -70,12 +73,12 @@ const Section3 = () => {
         className="translate-x-[190px] lg:translate-x-[360px] xl:translate-x-[460px]"
       />
       <h1
-        className={`${fonts.aeonik_regular.className} text-[24px] lg:text-[38px] xl:text-[48px] text-[#333333] leading-[120%]`}
+        className={`${aeonik_regular.className} text-[24px] lg:text-[38px] xl:text-[48px] text-[#333333] leading-[120%]`}
       >
         digital transformation.
       </h1>
       <h1
-        className={`${fonts.aeonik_light.className} text-sm lg:text-xl xl:text-2xl text-[#333333] leading-[120%] pt-2`}
+        className={`${aeonik_light.className} text-sm lg:text-xl xl:text-2xl text-[#333333] leading-[120%] pt-2`}
       >
         We don’t just build products; we engineer solutions.
       </h1>
@@ -84,7 +87,7 @@ const Section3 = () => {
         {/* Web Apps Section */}
         <div className="w-1/3 h-[360px] lg:h-[400px] xl:h-[480px] border border-[#999999] p-2 rounded-t-[20px] overflow-hidden">
           <p
-            className={`${fonts.aeonik_regular.className} border border-[#999999] rounded-[15px] w-full text-lg lg:text-xl xl:text-2xl text-[#333333] text-center py-[2px] lg:py-[8px] xl:py-[14px]`}
+            className={`${aeonik_regular.className} border border-[#999999] rounded-[15px] w-full text-lg lg:text-xl xl:text-2xl text-[#333333] text-center py-[2px] lg:py-[8px] xl:py-[14px]`}
           >
             Web Apps
           </p>
@@ -93,7 +96,7 @@ const Section3 = () => {
             {capabilities.map((capability, index) => (
               <span
                 key={index}
-                className={`${fonts.aeonik_regular.className} w-max border-[1px] border-[#C8C9CA] text-[#333333] text-[10px] lg:text-[12px] xl:text-[16px] p-[6px] px-2 lg:px-4 ${capability.bg} rounded-[10px]`}
+                className={`${aeonik_regular.className} w-max border-[1px] border-[#C8C9CA] text-[#333333] text-[10px] lg:text-[12px] xl:text-[16px] p-[6px] px-2 lg:px-4 ${capability.bg} rounded-[10px]`}
               >
                 {capability.label}
               </span>
@@ -128,7 +131,7 @@ const Section3 = () => {
           <img src="/assets/index/phone-mob.svg" alt="" />
         </div>
       </div>
-      <p className="w-[144px] lg:w-[184px] h-[40px] lg:h-[56] border border-[#999999] rounded-[10] text-sm lg:text-base text-black flex justify-center items-center  mt-[34px] lg:mt-0 xl:mt-[64px]">
+      <p className={`${aeonik_regular.className}w-[144px] lg:w-[184px] h-[40px] lg:h-[56] border border-[#999999] rounded-[10] text-sm lg:text-base text-black flex justify-center items-center  mt-[34px] lg:mt-0 xl:mt-[64px]`}>
         Let’s build together
       </p>
     </div>

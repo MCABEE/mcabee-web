@@ -6,7 +6,15 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import fonts from "@/utils/index";
+import localFont from 'next/font/local'
+
+
+
+const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
+const aeonik_light = localFont({ src: './AeonikLight.otf' });
+
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const links = [
@@ -23,7 +31,7 @@ const Navbar = () => {
   return (
     // <nav className='w-full px-6 md:px-20 xl:px-36 2xl:px-48 py-6 flex justify-between items-center bg-white shadow-md {fonts.aeonik_regular.className}'>
     <nav
-      className={`${fonts.aeonik_regular.className} w-full px-6 md:px-20 xl:px-36 2xl:px-48 py-6 flex justify-between items-center bg-white shadow-md`}
+      className={`${aeonik_regular.className} w-full px-6 md:px-20 xl:px-36 2xl:px-48 py-6 flex justify-between items-center bg-white shadow-md`}
     >
       <Image src="/mcabeeLogo.svg" alt="mcabeeLogo" width={112} height={40} />
 
