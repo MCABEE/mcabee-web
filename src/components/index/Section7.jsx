@@ -29,22 +29,22 @@ function Section7() {
         </p>
 
         <div className="flex justify-center items-center w-full px-2 sm:px-20">
-  <img
-    src="/assets/index/partner-mob-left.svg"
-    alt=""
-    className="block md:hidden w-[40px] h-[88px] flex-1"
-  />
-  <p
-    className={`${fonts.aeonik_regular.className} w-[144px] lg:w-[162px] h-[40px] lg:h-[56px] rounded-[10px] text-sm lg:text-base text-[#000000] flex justify-center items-center border border-[#999999]`}
-  >
-    Partner with us
-  </p>
-  <img
-    src="/assets/index/partner-mob-right.svg"
-    alt=""
-    className="block md:hidden w-[40px] h-[88px] flex-1"
-  />
-</div>
+          <img
+            src="/assets/index/partner-mob-left.svg"
+            alt=""
+            className="block md:hidden w-[40px] h-[88px] flex-1"
+          />
+          <p
+            className={`${fonts.aeonik_regular.className} w-[144px] lg:w-[162px] h-[40px] lg:h-[56px] rounded-[10px] text-sm lg:text-base text-[#000000] flex justify-center items-center border border-[#999999]`}
+          >
+            Partner with us
+          </p>
+          <img
+            src="/assets/index/partner-mob-right.svg"
+            alt=""
+            className="block md:hidden w-[40px] h-[88px] flex-1"
+          />
+        </div>
 
         {/* <div className="flex justify-between w-full px-2 sm:px-20 ">
           <img

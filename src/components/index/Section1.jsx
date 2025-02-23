@@ -1,8 +1,5 @@
-
-
 import React from "react";
-import fonts from "@/utils/index";
-
+import fonts from "@/utils/index"
 const Section1 = () => {
   return (
     <div className="flex flex-col-reverse lg:flex-row pt-[10px] md:pt-[20px] lg:pt-[95px]">

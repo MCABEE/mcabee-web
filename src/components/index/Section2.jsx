@@ -1,5 +1,5 @@
 import React from "react";
-import fonts from "@/utils/index";
+import fonts from "@/utils/index"
 
 const Section2 = () => {
   return (
@@ -23,15 +23,18 @@ const Section2 = () => {
             className="absolute -top-3 sm:-top-2  transform translate-x-40 sm:translate-x-52 md:translate-x-60 lg:left-80 lg:translate-x-0 w-16 md:w-18 lg:w-auto h-[59px] lg:h-auto"
           />
         </div>
-<div className="flex justify-between">
-  
-<p
-          className={`${fonts.aeonik_light.className} text-sm sm:text-lg md:text-xl lg:text-2xl text-[#333333]`}
-        >
-          Innovating for a Connected World
-        </p>
-        <p className={`${fonts.aeonik_regular.className} text-xs sm:text-base text-[#666666] `}>See all features</p>
-</div>
+        <div className="flex justify-between">
+          <p
+            className={`${fonts.aeonik_light.className} text-sm sm:text-lg md:text-xl lg:text-2xl text-[#333333]`}
+          >
+            Innovating for a Connected World
+          </p>
+          <p
+            className={`${fonts.aeonik_regular.className} text-xs sm:text-base text-[#666666] `}
+          >
+            See all features
+          </p>
+        </div>
       </div>
 
       {/* first frame */}
@@ -84,7 +87,8 @@ const Section2 = () => {
           <p
             className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333]  leading-[120%] pb-4 lg:pb-6 pe-[50px] md:pe-0 `}
           >
-            Seamless messaging,<br/> built for scale.
+            Seamless messaging,
+            <br /> built for scale.
           </p>
           <p
             className={`${fonts.aeonik_light.className} text-sm md:text-xs lg:text-sm xl:text-base text-[#060810]   leading-[140%] pb-8 md:pb-0 sm:pe-[50px] md:pe-0`}
@@ -106,7 +110,11 @@ const Section2 = () => {
                 className="pt-[111px]"
               />
             </div>
-            <img src="/assets/index/frame3.svg" alt="" className="pt-[34px] pe-12 sm:pe-5" />
+            <img
+              src="/assets/index/frame3.svg"
+              alt=""
+              className="pt-[34px] pe-12 sm:pe-5"
+            />
           </div>
           <p
             className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-3 sm:pt-12 pe-[66px] leading-[120%] pb-6 `}
@@ -122,7 +130,11 @@ const Section2 = () => {
           </p>
         </div>
         <div className="w-full md:w-[60%] lg:w-[65%] xl:w-[70%]   border border-[#999999] rounded-[15px] px-[26px] lg:px-[56px] 2xl:px-[66px] relative">
-          <img src="/assets/index/workflow.svg" alt="" className="pt-[180px] sm:pt-[140px]" />
+          <img
+            src="/assets/index/workflow.svg"
+            alt=""
+            className="pt-[180px] sm:pt-[140px]"
+          />
           <p
             className={`${fonts.aeonik_regular.className} text-[24px] sm:text-[28px] md:text-[20px] lg:text-[28px] 2xl:text-[32px] text-[#333333] pt-6`}
           >

@@ -172,7 +172,9 @@ const Footer = () => {
           <Link href={"https://www.instagram.com/couplr_app/"}>
             <img src="/assets/footer/insta.svg" alt="" />
           </Link>
-          <Link href={"https://www.facebook.com/profile.php?id=61571761064971/"}>
+          <Link
+            href={"https://www.facebook.com/profile.php?id=61571761064971/"}
+          >
             <img src="/assets/footer/Facebook.svg" alt="" />
           </Link>
         </div>
