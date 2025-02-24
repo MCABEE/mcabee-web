@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Section1 from "@/components/Section1";
 import Section2 from "@/components/Section2";
 import Section3 from "@/components/Section3";
@@ -36,7 +37,8 @@ export default function Home() {
       <div className="py-6 px-4 sm:px-20 lg:px-24 xl:px-36 2xl:px-48">
       <Section7/>
       </div>
-      
+      <Footer/>
+
       
     </div>
   );

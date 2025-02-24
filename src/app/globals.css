@@ -4,8 +4,8 @@
 
 
 .phone-bg {
-    background-image: url(/assets/index/phone_bg.png);
+    background-image: url(/status-bg.svg);
     background-repeat: no-repeat;
-    background-size: contain; /* Change from contain to cover */
-     /* Ensures the image is centered */
+    background-size: cover; 
+    background-position: center;
 }
