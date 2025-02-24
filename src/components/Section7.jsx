@@ -31,7 +31,7 @@ function Section7() {
           here to turn ideas into reality.
         </p>
 
-        <div className="flex justify-center items-center w-full px-2 sm:px-20">
+        <div className="flex justify-center w-full px-2 sm:px-20">
           <img
             src="/assets/index/partner-mob-left.svg"
             alt=""
