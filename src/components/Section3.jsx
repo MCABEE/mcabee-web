@@ -93,7 +93,7 @@ const Section3 = () => {
           <img src="/assets/index/phone-mob.svg" alt="" />
         </div>
       </div>
-      <p className={`${aeonik_regular.className} w-[144px] lg:w-[184px] h-[40px] lg:h-[56] border border-[#999999] rounded-[10] text-sm lg:text-base text-black flex justify-center items-center  mt-[34px] lg:mt-0 xl:mt-[64px]`}>
+      <p className={`${aeonik_regular.className} w-[144px] lg:w-[184px] h-[40px] lg:h-[56] border border-[#999999] rounded-[10px] text-sm lg:text-base text-black flex justify-center items-center  mt-[34px] lg:mt-0 xl:mt-[64px]`}>
         Let’s build together
       </p>
     </div>
