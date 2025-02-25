@@ -6,7 +6,7 @@ const aeonik_regular = localFont({ src: "./AeonikRegular.otf" });
 const aeonik_light = localFont({ src: "./AeonikLight.otf" });
 const UpdationStatus = () => {
   return (
-    <div className="w-screen h-screen flex 2xl:justify-center items-center flex-col pt-2">
+    <div className="w-screen h-screen flex 2xl:justify-center items-center flex-col pt-6 xl:pt-0">
       <div className="bg-[#0C0C0C] w-[328px] sm:w-[500px] md:w-[700px] lg:w-[900px] xl:w-[1144px] h-[420px] lg:h-[512px] rounded-[30px] relative">
         <img
           src="/man-running.svg"
