@@ -1,8 +1,8 @@
 import React from "react";
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 
-const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
-const aeonik_light = localFont({ src: './AeonikLight.otf' });
+const aeonik_regular = localFont({ src: "./AeonikRegular.otf" });
+const aeonik_light = localFont({ src: "./AeonikLight.otf" });
 
 function Section7() {
   return (
@@ -48,24 +48,6 @@ function Section7() {
             className="block md:hidden w-[40px] h-[88px] flex-1"
           />
         </div>
-
-        {/* <div className="flex justify-between w-full px-2 sm:px-20 ">
-          <img
-            src="/assets/index/partner-mob-left.svg"
-            alt=""
-            className="block md:hidden w-[40px] h-[88px]"
-          />
-          <p
-            className={`${fonts.aeonik_regular.className} w-[144px] lg:w-[162px] h-[40px] lg:h-[56px] rounded-[10px] text-sm lg:text-base text-[#000000] flex justify-center items-center border border-[#999999]`}
-          >
-            Partner with us
-          </p>
-          <img
-            src="/assets/index/partner-mob-right.svg"
-            alt=""
-            className="block md:hidden w-[40px] h-[88px]"
-          />
-        </div> */}
       </div>
 
       <img
