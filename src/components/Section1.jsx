@@ -1,11 +1,8 @@
 import React from "react";
-import localFont from 'next/font/local'
+import localFont from "next/font/local";
 
-const aeonik_regular = localFont({ src: './AeonikRegular.otf' });
-const aeonik_light = localFont({ src: './AeonikLight.otf' });
-
-
-
+const aeonik_regular = localFont({ src: "./AeonikRegular.otf" });
+const aeonik_light = localFont({ src: "./AeonikLight.otf" });
 
 const Section1 = () => {
   return (
