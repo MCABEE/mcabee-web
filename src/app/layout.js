@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mcabee",
-  description: "",
+  title: "MCABEE DIGITAL",
+  description:
+    "A lean yet agile team building scalable SaaS products designed to spark everyday engagement and deliver seamless digital experiences to the public.",
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
+        <Navbar />
         {children}
         {/* <Footer/> */}
       </body>
